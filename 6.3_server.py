@@ -49,7 +49,7 @@ def process_start(s_sock):
 
 if __name__ == '__main__':
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    s.bind(("",8828))                                  
+    s.bind(("",8898))                                  
     print("listening...")
     s.listen(28)                                         
     
